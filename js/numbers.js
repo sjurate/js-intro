@@ -111,5 +111,80 @@ console.log(-0 / 0);
 console.log(Infinity / Infinity);
 console.log(-Infinity / Infinity);
 
+console.log('-------------------------');
+
+let silence = 0;
+console.log(silence);
+silence = silence + 5;
+console.log(silence);
+
+console.log('kitaip uzrasant');
+// prie manes paties pridek 5 ir t.t.
+
+silence += 5;
+console.log(silence);
+
+
+let silense = 1;
+console.log(silense);
+silense += 4;
+console.log('+= 4 ->', silense);
+silense *= 6;
+console.log('*= 6 ->', silense);
+silense -= 10;
+console.log('-= 10 ->', silense);
+silense /= 4;
+console.log('/= 4 ->', silense);
+silense %= 3;
+console.log('%= 3 ->', silense);
+silense **= 3;
+console.log('**= 3 ->', silense);
+
+console.clear();
+
+let i = 1;
+i = i + 1;
+
+console.log(i);
+
+i += 1;
+
+console.log(i);
+
+i += 1;
+
+console.log(i);
+
+i++;
+
+console.log(i);
+
+
+++i;
+
+console.log(i);
+
+
+console.log('----------------------');
+
+let m = 0;
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m++);
+console.log(m);
+
+let n = 100;
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(++n);
+console.log(n);
+
+
 
 
