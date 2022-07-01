@@ -27,3 +27,5 @@ const backEnter = `Labas
 rytas
 Lietuva.`;
 console.log(backEnter);
+
+console.clear();
