@@ -48,6 +48,16 @@ for (i=0; i < paraidziui.length; i++) {
     console.log(paraidziui[i])
 }
 
+const labas = 'Labas rytas Lietuva!';
+let labasNaujas = '';
+console.log(labas);
+
+for (let i = 0; i < labas.length; i++) {
+    const simbolis = labas[i];
+    labasNaujas += simbolis;
+    console.log(simbolis, labasNaujas);
+}
+
 
 
 
