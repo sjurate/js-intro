@@ -29,3 +29,33 @@ Lietuva.`;
 console.log(backEnter);
 
 console.clear();
+
+// Labas, as Krabas Patis.
+// Labas, as Vaikas Bosas.
+
+const firstName1 = 'Krabas';
+const lastName1 = 'Patis';
+const firstName2 = 'Vaikas';
+const lastName2 = 'Bosas';
+
+/* 
+const labas_1 = 'Labas, as ' + firstName1 + ' ' + lastName1 + '.';
+console.log(labas_1); 
+*/
+
+const labas1_b = `Labas, as ${firstName1} ${lastName1}.`; // Veikia su BACKTICK tik 
+console.log(labas1_b);
+
+const labas2_b = `Labas, as ${firstName2} ${lastName2}.`;
+console.log(labas2_b);
+
+console.log(`Labas, as ${firstName1} ${lastName1}.`);
+
+const a = 7;
+const b = 5;
+
+console.log(`${a} + ${b} = ${a + b}`);
+
+console.log('a+b=', a + b);
+
+

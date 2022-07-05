@@ -38,7 +38,6 @@ switch (day) {
     default: 
         console.log('tokios dienos savaiteje nera');
         break;
-
 }
 
 console.log('----------------------------');
@@ -63,7 +62,6 @@ switch (weekday) {
         console.log('tokios dienos savaiteje nera');
         break;
 }
-
 
 console.log('--------------------------');
 
@@ -143,6 +141,5 @@ switch (stotele) {
         default:
             console.log('toks etapas nenumatytas');
             break;
-
     }
     
