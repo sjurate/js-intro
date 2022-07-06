@@ -44,7 +44,7 @@ const paraidziui = 'Paraidziui'
 
 console.log(paraidziui[0]);
 
-for (i=0; i < paraidziui.length; i++) {
+for (let i=0; i < paraidziui.length; i++) {
     console.log(paraidziui[i])
 }
 
@@ -59,5 +59,13 @@ for (let i = 0; i < labas.length; i++) {
 }
 
 
+const abecele = 'abcdef';
+var naujaAbecele = '';
 
+console.log(abecele);
+
+for (let i = abecele.length - 1; i >= 0; i--) {
+    naujaAbecele += abecele[i];
+    console.log(naujaAbecele);
+}
 
