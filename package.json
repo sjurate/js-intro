@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "bigNum": "nodemon ./nd/bigNum.js",
     "numSize": "nodemon ./nd/numSize.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
     "functions": "nodemon ./js/functions.js",
