@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "bigNum": "nodemon ./nd/bigNum.js",
+    "letters": "nodemon ./nd/letters.js",
     "numSize": "nodemon ./nd/numSize.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
     "functions": "nodemon ./js/functions.js",
