@@ -32,25 +32,24 @@ function letters(text, step) {
     }
 */
 
-/*
+    if ( step > 0) {
     for (let i= step - 1; i < text.length; i += step) {
         const symbol = text[i];
         answer += symbol;     
     }
-*/
-
-
+} else {
 
     for (let i= text.length + step; i >= 0; i += step) {
         const symbol = text[i];
         answer += symbol;     
     }
+}
 
 
     return answer;
 }
 
 
-console.log(letters('laivas', -2));
+console.log(letters('laivas', 2));
 console.log(letters('', 1));
 console.log(letters('ananasas', -2));
