@@ -32,24 +32,25 @@ function letters(text, step) {
     }
 */
 
-
-    for (let i= step - 1; i < text.length; i += step) {
-        const symbol = text[i];
-        answer += symbol;     
-    }
-
-
 /*
-    for (let i= text.length + step; i < text.length; i -= step) {
+    for (let i= step - 1; i < text.length; i += step) {
         const symbol = text[i];
         answer += symbol;     
     }
 */
 
+
+
+    for (let i= text.length + step; i >= 0; i += step) {
+        const symbol = text[i];
+        answer += symbol;     
+    }
+
+
     return answer;
 }
 
 
-console.log(letters('laivas', undefined));
+console.log(letters('laivas', -2));
 console.log(letters('', 1));
-console.log(letters('ananasas', 2));
+console.log(letters('ananasas', -2));
