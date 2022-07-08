@@ -10,6 +10,7 @@
     "letters": "nodemon ./nd/letters.js",
     "numSize": "nodemon ./nd/numSize.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
+    "arrow": "nodemon ./js/arrow.js",
     "loop": "nodemon ./js/loop.js",
     "functions": "nodemon ./js/functions.js",
     "switch": "nodemon ./js/switch.js",
