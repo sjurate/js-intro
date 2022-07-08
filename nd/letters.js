@@ -38,14 +38,11 @@ function letters(text, step) {
         answer += symbol;     
     }
 } else {
-
     for (let i= text.length + step; i >= 0; i += step) {
         const symbol = text[i];
         answer += symbol;     
     }
 }
-
-
     return answer;
 }
 
