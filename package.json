@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "training": "nodemon ./nd/training.js",
     "dalyba": "nodemon ./nd/dalyba.js",
     "bigNum": "nodemon ./nd/bigNum.js",
     "letters": "nodemon ./nd/letters.js",
     "numSize": "nodemon ./nd/numSize.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
+    "objects": "nodemon ./js/objects.js",
     "arrow": "nodemon ./js/arrow.js",
     "loop": "nodemon ./js/loop.js",
     "functions": "nodemon ./js/functions.js",
