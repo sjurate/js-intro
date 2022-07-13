@@ -1,6 +1,8 @@
 console.clear();
 
+const apple = "sweet" ;
 
+console.log(apple.split(""));
 
 
 
