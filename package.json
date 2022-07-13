@@ -11,6 +11,8 @@
     "letters": "nodemon ./nd/letters.js",
     "numSize": "nodemon ./nd/numSize.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
+    "Class": "nodemon ./js/Class.js",
+    "ternary": "nodemon ./js/ternary.js",
     "rest": "nodemon ./js/rest.js",
     "spread": "nodemon ./js/spread.js",
     "objects": "nodemon ./js/objects.js",
